@@ -61,6 +61,7 @@ Once quantified, gene counts are processed in R for sequencing statistics to ide
 - Visualizations: scatterplots, composite plots
 
 R script: [phyllotis_RV_rnaseq_analysis.R](phyllotis_RV_rnaseq_analyses.R)
+
 **Dependencies:**
 ```r
 # Install with BiocManager or install.packages()
