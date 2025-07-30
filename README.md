@@ -1,7 +1,10 @@
 # RNA-Seq Analysis Pipeline: Phyllotis Pulmonary Adaptation
 
-This project processes and analyzes RNA-Seq data from *Phyllotis vaccarum* to explore transcriptomic signatures of pulmonary adaptation at high altitude. It includes:
+This repository is for data processing and analyses related to Bautista et al. (in review), "Elevational variation in heart mass and suppression of hypoxia-induced right ventricle hypertrophy in Andean leaf-eared mice (Phyllotis)".
 
+Here, we provide the phenotypic data used in this study and outline the transcriptomic analyses.
+
+The pipeline is as follows:
 1. **Read preprocessing and alignment** (Nextflow, FastP, HiSat2)
 2. **Gene expression quantification** (featureCounts)
 3. **Differential expression and WGCNA** (R)
@@ -29,7 +32,7 @@ This pipeline automates read cleaning, alignment, QC, quantification, and report
 
 **Command Example:**
 ```bash
-nextflow run main.nf -c 
+nextflow run process_RNA-Seq.nf -c clean-map-qc_slurm.config -with-trace
 ```
 
 **Key Outputs:**
