@@ -48,7 +48,7 @@ nextflow run process_RNA-Seq.nf -c process_RNA-seq_slurm.config -with-trace
 
 ### R Script: DE and WGCNA Analysis
 
-Once quantified, gene counts are processed in R for sequencing statistics to identify outliers (see: [rnaseq_qc]([pman_rnaseq_QC/pman_rnaseq_QC.R](https://github.com/NathanaeldHerrera/P.maniculatus-Local_adaptation/blob/main/pman_rnaseq_QC/pman_rnaseq_QC.md))), differential expression, and co-expression network analysis.
+Once quantified, gene counts are processed in R for sequencing statistics to identify outliers (see: [rnaseq_qc](https://github.com/NathanaeldHerrera/P.maniculatus-Local_adaptation/blob/main/pman_rnaseq_QC/pman_rnaseq_QC.md)), differential expression, and co-expression network analysis.
 
 **Main Steps:**
 - Load count matrix and metadata
