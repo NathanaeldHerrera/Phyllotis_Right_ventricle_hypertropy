@@ -2,7 +2,7 @@
 
 This repository is for data processing and analyses related to Bautista et al. (in review), "Elevational variation in heart mass and suppression of hypoxia-induced right ventricle hypertrophy in Andean leaf-eared mice (Phyllotis)".
 
-Here, we provide the phenotypic data, rna-seq QC metrics, and the raw featureCounts data used in this study and outline the transcriptomic analyses.
+Here, we provide the [phenotypic data](Data/Bautista_etal_heartmassdata_upload.xlsx), [rna-seq QC metrics](), the raw [featureCounts data](), and associatated [metadata]() used in this study and outline the transcriptomic analyses.
 
 The pipeline is as follows:
 1. **Read preprocessing and alignment** (Nextflow, FastP, HiSat2)
