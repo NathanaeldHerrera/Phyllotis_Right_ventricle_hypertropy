@@ -17,6 +17,9 @@ The pipeline is as follows:
 ### Nextflow Pipeline
 
 This pipeline automates read cleaning, alignment, QC, quantification, and reporting.
+- There are two files, the workflow and a config file for job submission via slurm.
+- [process_RNA-Seq.nf]()
+- [process_RNA-seq_slurm.config]()
 
 **Steps:**
 1. **Fastp** – Adapter trimming and quality filtering
@@ -32,7 +35,7 @@ This pipeline automates read cleaning, alignment, QC, quantification, and report
 
 **Command Example:**
 ```bash
-nextflow run process_RNA-Seq.nf -c clean-map-qc_slurm.config -with-trace
+nextflow run process_RNA-Seq.nf -c process_RNA-seq_slurm.config -with-trace
 ```
 
 **Key Outputs:**
