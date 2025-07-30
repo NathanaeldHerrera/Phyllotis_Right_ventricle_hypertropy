@@ -9,9 +9,9 @@ This project processes and analyzes RNA-Seq data from *Phyllotis vaccarum* to ex
 
 ---
 
-## 🗂️ Workflow Overview
+## Workflow Overview
 
-### 🔁 Nextflow Pipeline
+### Nextflow Pipeline
 
 This pipeline automates read cleaning, alignment, QC, quantification, and reporting.
 
@@ -40,7 +40,7 @@ nextflow run main.nf -c
 
 ---
 
-### 📊 R Script: DE and WGCNA Analysis
+### R Script: DE and WGCNA Analysis
 
 Once quantified, gene counts are processed in R for sequencing statistics to identify outliers, differential expression, and co-expression network analysis.
 
