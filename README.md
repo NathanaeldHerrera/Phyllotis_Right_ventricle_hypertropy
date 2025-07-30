@@ -18,7 +18,7 @@ The pipeline is as follows:
 
 This pipeline automates read cleaning, alignment, QC, quantification, and reporting.
 - There are two files, the workflow and a config file for job submission via slurm.
-- [process_RNA-Seq.nf]()
+- [process_RNA-Seq.nf](process_RNA-Seq.nf)
 - [process_RNA-seq_slurm.config]()
 
 **Steps:**
