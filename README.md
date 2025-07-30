@@ -89,6 +89,6 @@ If using this workflow or results, we would love it if you could please cite our
 
 ## 📬 Contact
 
-For questions or suggestions, contact Nathanae Herrera (ndh04c at gmail.com) or open an issue on this repository.
+For questions or suggestions, contact Nathanae Herrera (ndh04c(at)gmail.com) or open an issue on this repository.
 
 ---
