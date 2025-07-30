@@ -1,6 +1,6 @@
-# RNA-Seq Analysis Pipeline: Phyllotis Pulmonary Adaptation
+# RNA-Seq Analysis Pipeline: *Phyllotis* Pulmonary Adaptation
 
-This repository is for data processing and analyses related to Bautista et al. (in review), "Elevational variation in heart mass and suppression of hypoxia-induced right ventricle hypertrophy in Andean leaf-eared mice (Phyllotis)".
+This repository is for data processing and analyses related to Bautista et al. (in review), "Elevational variation in heart mass and suppression of hypoxia-induced right ventricle hypertrophy in Andean leaf-eared mice (*Phyllotis*)".
 
 Here, we provide the [phenotypic data](Data/Bautista_etal_heartmassdata_upload.xlsx), [rna-seq QC metrics](Data/rnaseq_P.vaccarum_RV_QC_metrics_040325.csv), the raw [featureCounts data](Data/Pvac_readcounts_RV_CountMM.txt), and associated [metadata](Data/vaccarum_RNAseq_RV_metadata.csv) used in this study and outline the transcriptomic analyses.
 
